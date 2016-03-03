@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Lato:100,200,400' rel='stylesheet'>
+</head>
+<body>
+	<nav class="navbar navbar-static-top navbar-inverse">
+		<div class="container">
+			<a href="#" class="navbar-brand">Portfolio</a>
+			
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Link</a></li>
+					<!-- TO DO: have dropdown work -->
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li id="link1"><a href="#">One</a></li>
+							<li id="link2"><a href="#">Two</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="container-fluid">
+		<header class="row">
+			<div class="col-md-6">
+				<img class="title-logo image-responsive img-circle" alt="Udacity logo" src="images/udacity_logo.svg">
+			</div>
+			<div class="col-md-6 text-right text-uppercase">
+				<h1 class="text-thin title-super lead">Altynay Ilyassova</h1>
+				<h4 class="subtitle">Front-End Ninja</h4>
+			</div>
+		</header>
+		
+		<figure class="row">
+			<div class="col-md-12">
+				<hr class="grey-line">
+			</div>
+		</figure>
+		
+		<figure class="row">
+			<div class="col-md-12">
+				<img class="img-responsive" alt="The lavender field sky" src="images/top-large.jpg" srcset="images/top-large.jpg 2x,images/top-small.jpg 1x">
+			</div>
+		</figure>
+
+		<section class="row">
+			<div class="col-md-12">
+				<h2 class="text-muted"> Featured Work </h2>
+			</div>
+		</section>
+		
+		<main class="row text-center">
+			<div class="col-md-4">
+				<img class="img-responsive img-small" src="images/bottom-left.jpg" alt="Appify lavender image">
+				<h3 class="text-uppercase">Appify</h3>
+				<p><a href="http://github.com/udacity/appify">Link to Appify </a></p>
+			</div>
+			<div class="col-md-4">
+				<img class="img-responsive img-small" src="images/bottom-mid.jpg" alt="Sunflower lavender image">
+				<h3 class="text-uppercase">Sunflower</h3>
+				<p><a href="http://github.com/udacity/sunflower">Link to Sunflower </a></p>
+			</div>
+			<div class="col-md-4">
+				<img class="img-responsive img-small" src="images/bottom-right.jpg" alt="Bokeh lavender image">
+				<h3 class="text-uppercase">Bokeh</h3>
+				<p><a href="http://github.com/udacity/bokeh">Link to Bokeh! </a></p>
+			</div>
+		</main>
+	</div>
+</body>
+</html>
